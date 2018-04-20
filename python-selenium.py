@@ -8,8 +8,7 @@ from   selenium.webdriver.common.by import By
 browser     = webdriver.Chrome()
 url_basica  = "http://www.sodimac.cl/sodimac-cl/category/cat710019/Tuercas"  
 browser.get(url_basica)
-#total_pages = len(browser.find_element_by_class_name("pagination").find_elements_by_tag_name("a"))-2
-#print("total_pages is %s" %(total_pages))
+
 while(True):
     current_page = browser.find_element_by_class_name('pagination').find_element_by_class_name('active')
     print("current page is %s" %(current_page.text))
