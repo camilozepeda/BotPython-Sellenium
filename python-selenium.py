@@ -4,7 +4,7 @@ from   selenium import webdriver
 from   selenium.common.exceptions import TimeoutException
 from   selenium.common.exceptions import NoSuchElementException
 from   selenium.webdriver.common.by import By
-#http://www.sodimac.cl/sodimac-cl/category/cat710019/Tuercas
+
 browser     = webdriver.Chrome()
 url_basica  = "http://www.sodimac.cl/sodimac-cl/category/cat710019/Tuercas"  
 browser.get(url_basica)
