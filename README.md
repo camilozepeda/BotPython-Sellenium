@@ -25,3 +25,7 @@ browser     = webdriver.Chrome()
 url_basica  = "http://www.sodimac.cl/sodimac-cl/category/cat710019/Tuercas"  
 browser.get(url_basica)
 ```
+#Correr Rutina
+```python
+   searchItemsSelenium.py
+```
